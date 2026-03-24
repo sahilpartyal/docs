@@ -1,0 +1,95 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Here2There Documentation",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@here2there.io"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://here2there.io"
+  },
+  "tabs": [
+    {
+      "name": "Flows",
+      "url": "flows"
+    },
+    {
+      "name": "API Reference",
+      "url": "api"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Platform",
+      "icon": "globe",
+      "url": "https://here2there.io"
+    },
+    {
+      "name": "GitLab",
+      "icon": "gitlab",
+      "url": "https://gitlab.com/unitaspro1/h2t-software"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "flows/introduction"
+      ]
+    },
+    {
+      "group": "Booking Flows",
+      "pages": [
+        "flows/booking-public",
+        "flows/quote-flow",
+        "flows/booking-admin",
+        "flows/booking-widget",
+        "flows/booking-corporate"
+      ]
+    },
+    {
+      "group": "Operations",
+      "pages": [
+        "flows/dispatch",
+        "flows/driver-lifecycle",
+        "flows/driver-earnings"
+      ]
+    },
+    {
+      "group": "Payments & Billing",
+      "pages": [
+        "flows/payment",
+        "flows/invoicing",
+        "flows/corporate-billing"
+      ]
+    },
+    {
+      "group": "Platform",
+      "pages": [
+        "flows/operator-registration",
+        "flows/notifications"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://here2there.io"
+  },
+  "mermaid": {}
+}
